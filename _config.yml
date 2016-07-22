@@ -1,5 +1,5 @@
 name: Working with GitHub Pages
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 authors:
   Ramona:
