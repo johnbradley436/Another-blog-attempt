@@ -1,6 +1,6 @@
 name: Working with GitHub Pages
 markdown: kramdown
-pygments: true
+highlighter: rouge
 authors:
   Ramona:
     name: Ramona Romero
