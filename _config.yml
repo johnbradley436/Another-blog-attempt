@@ -10,3 +10,5 @@ authors:
     github: Ramona2020
 permalink: /blog/:year/:month/:day/:title
   
+
+theme: jekyll-theme-midnight
