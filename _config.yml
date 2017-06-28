@@ -2,12 +2,12 @@ name: Working with GitHub Pages
 markdown: kramdown
 highlighter: rouge
 authors:
-  Ramona:
-    name: Ramona Romero
-    display_name: Ramona
-    email: ramona.romero@vanderbilt.edu	
-    twitter: Ramona2020
-    github: Ramona2020
+  John:
+    name: John Bradley
+    display_name: John
+    email: johnbradley436@gmail.com
+    twitter: 
+    github: johnbradley436
 permalink: /blog/:year/:month/:day/:title
   
 
