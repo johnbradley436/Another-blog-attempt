@@ -1,4 +1,4 @@
-name: Working with GitHub Pages
+name: Another Blog Attempt
 markdown: kramdown
 highlighter: rouge
 authors:
@@ -6,7 +6,6 @@ authors:
     name: John Bradley
     display_name: John
     email: johnbradley436@gmail.com
-    twitter: 
     github: johnbradley436
 permalink: /blog/:year/:month/:day/:title
   
