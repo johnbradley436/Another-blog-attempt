@@ -7,7 +7,7 @@ authors:
     display_name: John
     email: johnbradley436@gmail.com
     github: johnbradley436
-permalink: /:year/:month/:day/:title
+permalink: /Another-blog-attempt/:year/:month/:day/:title
   
 
 theme: jekyll-theme-midnight
