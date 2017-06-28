@@ -4,22 +4,22 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>GitHub Pages Blog</title>
- <link href="http://ramona2020.github.io/blog/atom.xml" rel="self"/>
- <link href="http://ramona2020.github.io/blog"/>
+ <title>Another Blog Attempt</title>
+ <link href="http://johnbradley436.github.io/Another-blog-attempt/blog/atom.xml" rel="self"/>
+ <link href="http://johnbradley436.github.io/Another-blog-attempt/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://ramona2020.github.io/blog</id>
+ <id>http://johnbradley436.github.io/Another-blog-attempt/blog</id>
  <author>
-   <name>Ramona Romero</name>
-   <email>ramona.romero@vanderbilt.edu</email>
+   <name>John</name>
+   <email>johnbradley436@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://ramona2020.github.io{{ post.url }}"/>
+   <link href="http://johnbradley436.github.io/Another-blog-attempt{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://ramona2020.github.io/{{ post.id }}</id>
+   <id>http://johnbradley436.github.io/Another-blog-attempt/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
